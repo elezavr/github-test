@@ -27,8 +27,6 @@ const emitter = new Emitter();
 
 const unsub = emitter.subscribe('hello', data => console.log('Sub:', data));
 
-console.log('test');
-
 emitter.emit('hello', 42);
 
 setTimeout(() => {
