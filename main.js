@@ -36,7 +36,3 @@ setTimeout(() => {
 setTimeout(() => {
     unsub();
 }, 2500);
-
-setTimeout(() => {
-    emitter.emit('hello', 'After 3 seconds');
-}, 3000);
